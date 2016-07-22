@@ -1,8 +1,8 @@
-# development:
-#   adapter: postgresql
-#   database: redmart_development
-
 development:
+  adapter: postgresql
+  database: redmart_development
+
+production:
   adapter: postgresql
   database: da35r3inrhdh51
   username: wuswasbcltxpfo
