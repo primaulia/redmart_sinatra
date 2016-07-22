@@ -1,9 +1,8 @@
 class RedmartSinatraApp < Sinatra::Base
   # ignore the static pages
   get '/' do
-    erb "<p>Welcome to redmart</p>"
+    erb "Welcome to redmart"
   end
-
 
   # RESTFUL RESOURCES, CREATE READ UPDATE DELETE
 
