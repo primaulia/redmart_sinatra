@@ -4,6 +4,9 @@ Bundler.require
 
 # LOAD MODEL
 require './models/user'
+require './models/product'
+require './models/review'
+require './models/category'
 
 # LOAD THE APP
 require './app'
